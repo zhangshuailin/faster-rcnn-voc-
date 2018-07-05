@@ -6,12 +6,19 @@
 
 faster rcnn voc数据集制作方式如下：
 1)JPEGImages文件夹（所有图片）
+
 2)Annatations文件夹（xml格式的标签文件，xml文件名对应了每张图片名称）
+
 3)ImageSets文件夹
+
   3.1 Action存放的是人的动作，我们暂时不用
+  
   3.2 Layout存放的人体部位的数据。我们暂时不用
+  
   3.3 Main存放的是图像物体识别的数据，分为20类
+  
 	  Main里面有test.txt , train.txt, val.txt ,trainval.txt这四个文件我们后面会用（make_main_txt.py）生成
+	  
 4）Segmentation存放的是可用于分割的数据
 
 如果你下载了VOC2007数据集，那么把它解压，把各个文件夹里面的东西删除，保留文件夹名字。如果没下载，那么就仿照他的文件夹格式，自己建好空文件夹就行。
