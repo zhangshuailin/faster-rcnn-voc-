@@ -1,0 +1,3 @@
+将图片放入JPEGImages
+用工具生成的xml文件全部放在Annotations
+用python脚本生成的txt 都在ImageSets
